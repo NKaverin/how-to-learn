@@ -1,0 +1,10 @@
+.khan__container_book-container_book-link {
+    margin-left: 48px;
+    color: #2f80ed;
+    line-height: 42px;
+    font-size: 30px;
+}
+
+.khan__container_book-container_book-link:hover {
+    text-decoration: none;
+}

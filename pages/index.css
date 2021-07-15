@@ -1,0 +1,101 @@
+@import url("../vendor/normalize.css");
+@import url("../vendor/fonts/fonts.css");
+
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/__logo/header__logo.css");
+@import url("../blocks/header/__title/header__title.css");
+@import url("../blocks/header/__subtittle/header__subtittle.css");
+@import url("../blocks/header/__link/header__link.css");
+@import url("../blocks/header/__main_illustration/header__main_illustration.css");
+@import url("../blocks/header/__square_pic/header__square_pic.css");
+
+@import url("../blocks/description/description.css");
+@import url("../blocks/oakley/oakley.css");
+
+@import url("../blocks/two-columns/two-columns.css");
+@import url("../blocks/two-columns/__main-text/two-columns__main-text.css");
+@import url("../blocks/two-columns/__brief/two-columns__brief.css");
+@import url("../blocks/two-columns/__paragraph/two-columns__paragraph.css");
+@import url("../blocks/two-columns/__span-accent/two-columns__span-accent.css");
+
+@import url("../blocks/feynman/feynman.css");
+@import url("../blocks/feynman/__title/feynman__title.css");
+@import url("../blocks/feynman/__subtitle/feynman__subtitle.css");
+@import url("../blocks/feynman/__link/feynman__link.css");
+
+@import url("../blocks/section/_title/section_title.css");
+@import url("../blocks/section/_subtitle/section_subtitle.css");
+
+@import url("../blocks/techniques/techniques.css");
+@import url("../blocks/techniques/__cards/techniques__cards.css");
+@import url("../blocks/techniques/__cards/_item/techniques__cards_item.css");
+@import url("../blocks/techniques/__cards/_item/_image/techniques__cards_item_image.css");
+@import url("../blocks/techniques/__cards/_item/_title/techniques__cards_item_title.css");
+@import url("../blocks/techniques/__cards/_item/_descriprtion/techniques__cards_item_descriprtion.css");
+
+@import url("../blocks/video/video.css");
+@import url("../blocks/video/__video/video__video.css");
+@import url("../blocks/video/__video/_iframe/video__video_iframe.css");
+
+@import url("../blocks/digits/digits.css");
+
+@import url("../blocks/table/table.css");
+@import url("../blocks/table/__cell/table__cell.css");
+@import url("../blocks/table/__cell/_heading/table__cell_heading.css");
+@import url("../blocks/table/__cell/_text/table__cell_text\ .css");
+@import url("../blocks/table/__theme_dark/table__theme_dark.css");
+@import url("../blocks/table/__text_theme_dark/table__text_theme_dark.css");
+
+@import url("../blocks/khan/khan.css");
+@import url("../blocks/khan/__container/khan__container.css");
+@import url("../blocks/khan/__container/_author/khan__container_author.css");
+@import url("../blocks/khan/__container/_title/khan__container_title.css");
+@import url("../blocks/khan/__container/_quote/khan__container_quote.css");
+@import url("../blocks/khan/__container/_quote-author/khan__container_quote-author.css");
+@import url("../blocks/khan/__container/_quote-author_subline/khan__container_quote-author_subline.css");
+@import url("../blocks/khan/__container/_book-container/khan__container_book-container.css");
+@import url("../blocks/khan/__container/_book-container/_book-pic/khan__container_book-container_book-pic.css");
+@import url("../blocks/khan/__container/_book-container/_book-link/khan__container_book-container_book-link.css");
+
+@import url("../blocks/kaufman/kaufman.css");
+@import url("../blocks/kaufman/__cell/kaufman__cell.css");
+@import url("../blocks/kaufman/__triangle/kaufman__triangle.css");
+@import url("../blocks/resourses/resourses.css");
+@import url("../blocks/resourses/__logo-zone/resourses__logo-zone.css");
+@import url("../blocks/resourses/__logo-zone/_logo/resourses__logo-zone_logo.css");
+
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__author/footer__author.css");
+@import url("../blocks/footer/__columns/footer__columns.css");
+@import url("../blocks/footer/__columns/_column_copyright/footer__columns_column_copyright.css");
+@import url("../blocks/footer/__columns/_column-links/footer__columns_column-links.css");
+@import url("../blocks/footer/__columns/_column-heading/footer__columns_column-heading.css");
+@import url("../blocks/footer/__columns/_column-links/_link/footer__columns_column-links_link.css");
+@import url("../blocks/footer/__columns/_column-links/_link/_social-icon/footer__columns_column-links_link_social-icon.css");
+
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+} 
+
+.page {
+    min-width: 900px;
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+.square-animation {
+    animation: rotation 20s linear infinite;
+}
+
+.logo {
+    width: 183px;
+    height: 32px;
+    z-index: 1;    
+}
