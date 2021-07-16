@@ -2,5 +2,5 @@
     padding: 90px 0;
     overflow: hidden;
     position: relative;
-    z-index: -2;
+    z-index: 1;
 }
