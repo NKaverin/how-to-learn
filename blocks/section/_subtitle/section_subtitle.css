@@ -5,4 +5,5 @@
     font-weight: bold;
     margin: 20px auto auto auto;
     text-align: center;
+    z-index: 3;
 }
