@@ -1,8 +1,0 @@
-.techniques__cards_item {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    margin-left: 100px;
-    width: 240px;
-    margin-bottom: 60px;
-}
