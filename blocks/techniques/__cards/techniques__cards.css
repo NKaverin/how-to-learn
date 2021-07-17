@@ -1,7 +1,0 @@
-.techniques__cards {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    flex-wrap: wrap;
-    margin: 0px;
-}
